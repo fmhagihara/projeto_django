@@ -7,9 +7,3 @@ def home(request):
     return render(request, 'recipes/home.html', context={
         'name': 'Massaki'
     })
-
-def contato(request):
-    return HttpResponse('CONTATO')
-
-def sobre(request):
-    return HttpResponse('SOBRE')
